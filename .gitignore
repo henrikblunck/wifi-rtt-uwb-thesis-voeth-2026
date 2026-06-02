@@ -1,0 +1,71 @@
+# Build artifacts for ESP-IDF projects
+Auswertung/Daten/**/*.png
+
+esp-scanner/build/
+esp-scanner/sdkconfig
+esp-scanner/sdkconfig.old
+esp-scanner/sdkconfig.defaults
+esp-scanner/main/data
+esp-scanner/clone
+esp-scanner/main/build
+
+esp-idf-AP/build/
+esp-idf-AP/sdkconfig
+esp-idf-AP/sdkconfig.old
+esp-idf-AP/sdkconfig.defaults
+
+uwb/UWB_Initiator/auswertung/data
+uwb/UWB_Initiator/script.sh
+uwb/UWB_Initiator/auswertung/script.sh
+
+mlregression/los
+mlregression/nlos
+mlregression/losarchive1
+mlregression/nlosarchive1
+
+archive
+Messungen/
+
+start.sh
+tests/
+regression/
+# Compiled logger executable
+esp-scanner/main/rtt_logger
+esp-scanner/main/rtt_logger.exe
+
+/ftm_main.c
+/main.c
+# Generated log files (relative to esp-scanner/main)
+esp-scanner/main/*.csv
+
+# Python bytecode for script.py
+esp-scanner/main/__pycache__/
+esp-scanner/main/*.pyc
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Dependency / Package Manager directories
+/node_modules/
+/vendor/
+/deps/
+
+# Other binaries or build outputs
+*.out
+*.exe
+*.bin
+*.elf
