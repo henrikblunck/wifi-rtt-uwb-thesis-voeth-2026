@@ -2,17 +2,11 @@
 Auswertung/Daten/**/*.png
 
 esp-scanner/build/
-esp-scanner/sdkconfig
-esp-scanner/sdkconfig.old
-esp-scanner/sdkconfig.defaults
 esp-scanner/main/data
 esp-scanner/clone
 esp-scanner/main/build
 
 esp-idf-AP/build/
-esp-idf-AP/sdkconfig
-esp-idf-AP/sdkconfig.old
-esp-idf-AP/sdkconfig.defaults
 
 uwb/UWB_Initiator/auswertung/data
 uwb/UWB_Initiator/script.sh

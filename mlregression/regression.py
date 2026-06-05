@@ -158,7 +158,7 @@ def train_mlr(csv_file_paths, env_type):
     plt.grid(True, linestyle=":", alpha=0.7)
 
     plt.tight_layout()
-    plt.show()
+    # plt.show()
 
 
 if __name__ == "__main__":
