@@ -1,1 +1,1 @@
-Für die Ausführung der einzelnen Segementen, den Anweisungen in dem jeweiligen Ordner folgen.
+Für die Ausführung der einzelnen Segemente, den Anweisungen in dem jeweiligen Ordner folgen.
